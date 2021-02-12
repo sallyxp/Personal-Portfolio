@@ -1,0 +1,103 @@
+/* Site Font */
+/* - don't think this suits
+@font-face {
+    font-family: "bradley-hand";
+    src: url(../font/BRADHITC.TTF);
+}
+*/
+head{
+    background: url(img/brianLewicki-unsplash-1589352511666-341e33517a0b.jpg);
+    background-size: cover;
+    background-position: center;
+    min-height: 200px;
+  }
+ 
+  @media screen and (max-width: 670px){
+    header{
+      min-height: 500px;
+    }
+  }
+  .section{
+    padding-top: 4vw;
+    padding-bottom: 4vw;
+  }
+  .tabs .indicator{
+    background-color: #1a237e;
+  }
+  .tabs .tab a:focus, .tabs .tab a:focus.active{
+    background: transparent;
+  } 
+  /*SR*/
+body { 
+    min-height: 100vh; 
+    margin-bottom: 100px;
+}
+/*Blue font */
+.tabs .indicator{
+    background-color: #1a237e;
+  }
+  .tabs .tab a:focus, .tabs .tab a:focus.active{
+    background: transparent;
+  }
+/* Nutrition Tracking */
+.itemDiv h6 {
+    text-align: center;
+}
+
+.itemDiv {
+    font-size: 10px;
+    margin: 2%;
+    text-align: center;
+}
+
+.itemDiv p {
+    text-align: left;
+}
+
+.dayTotal {
+    font-size: 20px;
+    height: 50%;
+    width: 40%;
+    padding: 1%;
+}
+
+/* Brand Logo */
+.brand {
+    font-family: bradley-hand;
+    font-weight: bold;
+}
+
+/* Food Modal */
+.food-modal {
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    display: none;
+}
+
+
+
+
+
+.achv-btn {
+    position: absolute;
+    right: 0px;
+    top: 4.5px;
+}
+
+.li-card {
+    padding: 1%;
+}
+
+footer {
+    z-index: 1;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+}
+

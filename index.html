@@ -1,83 +1,95 @@
 <html lang="en">
+
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <!-- font awesome -->
-  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css"
+    integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp" crossorigin="anonymous">
   <!--Import Google Icon Font-->
   <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
   <!-- Compiled and minified CSS -->
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-beta/css/materialize.min.css">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" />
+
   <!-- Local CSS Styles -->
   <link rel="stylesheet" href="css/style.css" />
   <title>Sally Rodgers</title>
   <style>
-    
-    header{
+    header {
       background: url(img/brianLewicki-unsplash-1589352511666-341e33517a0b.jpg);
       background-size: cover;
       background-position: center;
       min-height: 10px;
       width: 100%;
-    } 
-    @media screen and (max-width: 670px){
-      header{
+    }
+
+    @media screen and (max-width: 670px) {
+      header {
         min-height: 150px;
         width: 100%px;
       }
     }
-    .nav{
+
+    .nav {
       background: url(img/brianLewicki-unsplash-1589352511666-341e33517a0b.jpg);
       background-size: cover;
       text-align: left;
       background-position: center;
       min-height: 150px;
-    } 
-    .section{
+    }
+
+    .section {
       padding-top: 4vw;
       padding-bottom: 4vw;
     }
-    .img{
-      height: 50%;
-    }
-    .tabs .indicator{
+
+    .tabs .indicator {
       background-color: #1a237e;
     }
-    .tabs .tab a:focus, .tabs .tab a:focus.active{
+
+    .tabs .tab a:focus,
+    .tabs .tab a:focus.active {
       background: transparent;
     }
   </style>
 </head>
+
 <body>
 
   <!-- navbar -->
   <header>
-    <div >
-      </div>
+    <div>
+    </div>
     <nav class="nav-wrapper transparent ">
-         <div class="container width = 100%">
+      <div class="container width = 100%">
+        <!--
         <a href="#" class="brand-logo left-align white-text ">Sally Rodgers</a>
-     
+        -->
         <a href="#" class="sidenav-trigger" data-target="mobile-menu">
           <i class="material-icons">menu</i>
         </a>
         <ul class="right hide-on-med-and-down">
           <li><a href="#photos">Home</a></li>
-          <li><a href="#services">Portfolio</a></li>
+          <li><a href="#portfolio">Portfolio</a></li>
           <li><a href="#contact">Contact</a></li>
-          <li><a href="#" class="tooltipped btn-floating btn-small indigo darken-4" data-position="bottom" data-tooltip="Github"> 
-            <i class="fab fa-Github"></i>
-          </a></li>
-          <li><a href="#www.linkedin.com/in/sallyhello1" class="tooltipped btn-floating btn-small indigo darken-4" data-position="bottom" data-tooltip="Instagram"> 
-            <i class="fab fa-linkedin"></i>
-          </a></li>
-          <li><a href="#" class="tooltipped btn-floating btn-small indigo darken-4" data-position="bottom" data-tooltip="Facebook">
-            <i class="fab fa-facebook"></i>
-          </a></li>
-          <li><a href="#" class="tooltipped btn-floating btn-small indigo darken-4" data-position="bottom" data-tooltip="Twitter">
-            <i class="fab fa-twitter"></i>
-          </a></li>
+          <li><a href="#" class="tooltipped btn-floating btn-small indigo darken-4" data-position="bottom"
+              data-tooltip="Github">
+              <i class="fab fa-Github"></i>
+            </a></li>
+          <li><a href="#www.linkedin.com/in/sallyhello1" class="tooltipped btn-floating btn-small indigo darken-4"
+              data-position="bottom" data-tooltip="Instagram">
+              <i class="fab fa-linkedin"></i>
+            </a></li>
+          <li><a href="#" class="tooltipped btn-floating btn-small indigo darken-4" data-position="bottom"
+              data-tooltip="Facebook">
+              <i class="fab fa-facebook"></i>
+            </a></li>
+          <li><a href="#" class="tooltipped btn-floating btn-small indigo darken-4" data-position="bottom"
+              data-tooltip="Twitter">
+              <i class="fab fa-twitter"></i>
+            </a></li>
         </ul>
         <ul class="sidenav grey lighten-2" id="mobile-menu">
           <li><a href="#">Home</a></li>
@@ -92,24 +104,27 @@
   <section class="container section scrollspy  " id="selfie">
     <div class="row">
       <div class="col s12 l4">
-        <h4 class= "indigo-text">Sally Rodgers</h4>
-          <img src="img/myProfilepic.PNG" alt="" class="responsive-img materialboxed">
-          <h5 class = "indigo-text">Full Stack Web Developer</h5>
+        <h3 class="indigo-text">Sally Rodgers</h3>
+        <img style="height: 50%" src="img/myProfilepic.PNG" alt="" class="responsive-img materialboxed">
+        <h4 class="indigo-text">Full Stack Web Developer</h4>
       </div>
-      <div class="col s12 l6 offset-l1">
+      <div class="col s12 l5 ">
         <h2 class="indigo-text text-darken-4">Summary</h2>
-        <p>Hello! I am Sally Rodgers and I have been working within the IT Industry for more than 20 years.
-        I have an MSc in Computing Science and had been working in particular as a Database designer and programmer, until
-        a car accident within my family forced an employment gap. Since returning back to work, my work has mostly been 
-        within data analysis and reporting.  While Coronavirus has meant a hiatus in several activities, I decided to expand
-        my horizons and develop new skills.</p>
+        <h5>Hello! I am Sally Rodgers and I have been working within the IT Industry for more than 20 years.
+          I have an MSc in Computing Science and had been working in particular as a Database designer and programmer,
+          until
+          a car accident within my family forced an employment gap. Since returning back to work, my work has mostly
+          been
+          within data analysis and reporting. While Coronavirus has meant a hiatus in several activities, I decided to
+          expand
+          my horizons and develop new skills.</h5>
       </div>
     </div>
-     <br> 
+    <br>
     <div class="row">
-        <h5>email: sallyhello1@yahoo.com</h5>
-    </div> 
-    
+      <h5>email: sallyhello1@yahoo.com</h5>
+    </div>
+
   </section>
 
   <!-- parallax -->
@@ -124,8 +139,10 @@
     <div class="row">
       <div class="col s12 l4">
         <h2 class="indigo-text text-darken-4">Experience ...</h2>
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum at lacus congue, suscipit elit nec, tincidunt orci.</p>
-        <p>Mauris dolor augue, vulputate in pharetra ac, facilisis nec libero. Fusce condimentum gravida urna, vitae scelerisque erat ornare nec.</p>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum at lacus congue, suscipit elit nec,
+          tincidunt orci.</p>
+        <p>Mauris dolor augue, vulputate in pharetra ac, facilisis nec libero. Fusce condimentum gravida urna, vitae
+          scelerisque erat ornare nec.</p>
       </div>
       <div class="col s12 l6 offset-l2">
         <!-- tabs -->
@@ -138,17 +155,21 @@
           </li>
         </ul>
         <div id="experience" class="col s12">
-            <p class="flow-text indigo-text text-darken-4">Experience</p>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum at lacus congue, suscipit elit nec, tincidunt orci.</p>
-            <p>Mauris dolor augue, vulputate in pharetra ac, facilisis nec libero. Fusce condimentum gravida urna, vitae scelerisque erat ornare nec.</p>
+          <p class="flow-text indigo-text text-darken-4">Experience</p>
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum at lacus congue, suscipit elit nec,
+            tincidunt orci.</p>
+          <p>Mauris dolor augue, vulputate in pharetra ac, facilisis nec libero. Fusce condimentum gravida urna, vitae
+            scelerisque erat ornare nec.</p>
         </div>
         <div id="education" class="col s12">
-            <p class="flow-text indigo-text text-darken-4">Editing</p>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum at lacus congue, suscipit elit nec, tincidunt orci.</p>
-            <p>Mauris dolor augue, vulputate in pharetra ac, facilisis nec libero. Fusce condimentum gravida urna, vitae scelerisque erat ornare nec.</p>
-        </div>
+          <p class="flow-text indigo-text text-darken-4">Editing</p>
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum at lacus congue, suscipit elit nec,
+            tincidunt orci.</p>
+          <p>Mauris dolor augue, vulputate in pharetra ac, facilisis nec libero. Fusce condimentum gravida urna, vitae
+            scelerisque erat ornare nec.</p>
         </div>
       </div>
+    </div>
     </div>
   </section>
 
@@ -159,76 +180,181 @@
     </div>
   </div>
 
-  <!-- contact form -->
-  <section class="section container scrollspy" id="contact">
+  <!-- PORTFOLIO-->
+  <!-- Contents -->
+  <main class="container section " id="portfolio">
     <div class="row">
-      <div class="col s12 l5">
-        <h2 class="indigo-text text-darken-4">Get in Touch</h2>
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum at lacus congue, suscipit elit nec, tincidunt orci.</p>
-        <p>Mauris dolor augue, vulputate in pharetra ac, facilisis nec libero. Fusce condimentum gravida urna, vitae scelerisque erat ornare nec.</p>
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum at lacus congue, suscipit elit nec, tincidunt orci.</p>
-        <p>Mauris dolor augue, vulputate in pharetra ac, facilisis nec libero. Fusce condimentum gravida urna, vitae scelerisque erat ornare nec.</p>
-      </div>
-      <div class="col s12 l5 offset-l2">
-        <form>
-          <div class="input-field">
-            <i class="material-icons prefix">email</i>
-            <input type="email" id="email">
-            <label for="email">Your Email</label>
-          </div>
-          <div class="input-field">
-            <i class="material-icons prefix">message</i>
-            <textarea id="message" class="materialize-textarea" cols="20" rows="20"></textarea>
-            <label for="message">Your Message</label>
-          </div>
-          
-          <div class="input-field center">
-            <button class="btn">Submit</button>
-          </div>
-        </form>
-      </div>
+      <h2 class="indigo-text text-darken-4">My Portfolio</h2>
     </div>
-  </section>
+    <section class="row">
+      <div class="col l4 m4 hide-on-small-only">
+        <img style="width: 100%" src="img/dayScheduler.png" alt="Work Day Scheduler"
+          class="responsive-img materialboxed">
+      </div>
+      <div class="col l6 offset-l1  m6 hide-on-small-only">
+        <h2 class="flow-text indigo-text text-darken-3">Work Day Scheduler</h2>
+        <p class="flow-text left-align">This project creates a simple calendar application to allow a user to save
+          events for each hour
+          of the day by modifying starter code. This app will run in the browser and feature dynamically updated HTML
+          and CSS powered
+          by jQuery.</p>
+        <a href="my-wellbeing.html">do github and website buttons</a>
+      </div>
+    </section>
 
-  <!-- footer -->
-  <footer class="page-footer grey darken-3">
-    <div class="container">
-      <div class="row">
-        <div class="col l6 s12">
-          <h5>About Me</h5>
-          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum at lacus congue.</p>
-          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum at lacus congue, suscipit elit nec, tincidunt orci.</p>
+    <section class="row">
+      <div class="col s12 hide-on-med-and-up">
+
+        <h4 class="flow-text indigo-text text-darken-3">Work Day Scheduler</h4>
+        <h5 class="flow-text ">This project creates a simple calendar application to allow a user to save events for
+          each hour of the day by modifying
+          starter code. This app will run in the browser and feature dynamically updated HTML and CSS powered by jQuery.
+        </h5>
+        <a href="my-wellbeing.html">Links Needed here</a>
+        <a class="waves-effect waves-light btn modal-trigger" href="#modal1">Just starting? Click on here for
+          website</a>
+      </div>
+      <div class="col s8 hide-on-med-and-up">
+        <img src="img/dayScheduler.png" alt="Work Day Scheduler" class="responsive-img materialboxed">
+      </div>
+    </section>
+
+    <main class="container section " id="portfolio">
+      <section class="row">
+        <div class="col l4 m4 hide-on-small-only">
+          <img style="width: 100%" src="img/PasswordGenerator.png" alt=" Password Generator Screen"
+            class="responsive-img materialboxed">
         </div>
-        <div class="col l4 offset-l2 s12">
-          <h5 class="white-text">Connect</h5>
-          <ul>
-            <li><a class="grey-text text-lighten-3" href="#">Github</a></li>
-            <li><a class="grey-text text-lighten-3" href="#">Facebook</a></li>
-            <li><a class="grey-text text-lighten-3" href="#www.linkedin.com/in/sallyhello1">Linkedin</a></li>
-            <li><a class="grey-text text-lighten-3" href="#">Twitter</a></li>
-          </ul>
+        <div class="col l6 offset-l1  m6 hide-on-small-only">
+          <h2 class="flow-text indigo-text text-darken-3">Password Generator</h2>
+          <p class="flow-text left-align">This repository stores a Javascript password generator program.</p>
+          <p class="flow-text left-align">For any selected number
+            between 8 and 128, this program generates a random string. This string (based on user
+            selected choice of character types) can be any combination of uppercase, lowercase,
+            numerical and special characters.</p>
+          <a href="my-wellbeing.html">do github and website buttons</a>
         </div>
-      </div>
-    </div>
-    <div class="footer-copyright grey darken-4">2021 Sally Rodgers</div>
-    </div>
-  </footer>
+      </section>
 
-  <!-- Compiled and minified JavaScript -->
-  <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-beta/js/materialize.min.js"></script>
-  <script>
-    $(document).ready(function(){
+      <section class="row">
+        <div class="col s12 hide-on-med-and-up">
 
-      $('.sidenav').sidenav();
-      $('.materialboxed').materialbox();
-      $('.parallax').parallax();
-      $('.tabs').tabs();
-     
-      $('.tooltipped').tooltip();
-      $('.scrollspy').scrollSpy();
+          <h4 class="flow-text indigo-text text-darken-3">Password Generator</h4>
+          <p class="flow-text left-align">This repository stores a Javascript password generator program.</p>
+          <p class="flow-text left-align">For any selected number
+            between 8 and 128, this program generates a random string. This string (based on user
+            selected choice of character types) can be any combination of uppercase, lowercase,
+            numerical and special characters.</p>
+          <a href="my-wellbeing.html">Links Needed here</a>
+          <a class="waves-effect waves-light btn modal-trigger" href="#modal1">Just starting? Click on here for
+            website</a>
+        </div>
+        <div class="col s8 hide-on-med-and-up">
+          <img src="img/PasswordGenerator.png" alt="Password Generator screen" class="responsive-img materialboxed">
+        </div>
+      </section>
 
-    });
-  </script>
+      <!-- Apple -->
+      <section class="row">
+        <div class="col l4 m4 hide-on-small-only">
+          <img src="img/dylan-nolte-hJBgMJgswrY-unsplash.jpg" alt="Apple on a crate"
+            class="responsive-img materialboxed">
+        </div>
+        <div class="col l6 offset-l1  m6 right hide-on-small-only">
+          <h3 class="flow-text indigo-text text-darken-4">Food Daily</h3>
+          <h5 class="flow-text">Click here to see your daily food data.</h5>
+          <a href="food-daily.html">Click here</a>
+        </div>
+      </section>
+
+      <section class="row">
+        <div class="col s12 hide-on-med-and-up">
+          <h4 class="flow-text indigo-text text-darken-4">Food Daily</h4>
+          <h5 class="flow-text left-align">Click here to see your daily food data.</h5>
+          <a href="food-daily.html">Click here</a>
+        </div>
+        <div class="col s8  hide-on-med-and-up">
+          <img src="img/dylan-nolte-hJBgMJgswrY-unsplash.jpg" alt="Apple on a crate"
+            class="responsive-img materialboxed">
+        </div>
+      </section>
+
+      <!-- contact form -->
+      <section class="section container scrollspy" id="contact">
+        <div class="row">
+          <div class="col s12 l5">
+            <h2 class="indigo-text text-darken-4">Get in Touch</h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum at lacus congue, suscipit elit nec,
+              tincidunt orci.</p>
+            <p>Mauris dolor augue, vulputate in pharetra ac, facilisis nec libero. Fusce condimentum gravida urna, vitae
+              scelerisque erat ornare nec.</p>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum at lacus congue, suscipit elit nec,
+              tincidunt orci.</p>
+            <p>Mauris dolor augue, vulputate in pharetra ac, facilisis nec libero. Fusce condimentum gravida urna, vitae
+              scelerisque erat ornare nec.</p>
+          </div>
+          <div class="col s12 l5 offset-l2">
+            <form>
+              <div class="input-field">
+                <i class="material-icons prefix">email</i>
+                <input type="email" id="email">
+                <label for="email">Your Email</label>
+              </div>
+              <div class="input-field">
+                <i class="material-icons prefix">message</i>
+                <textarea id="message" class="materialize-textarea" cols="20" rows="20"></textarea>
+                <label for="message">Your Message</label>
+              </div>
+
+              <div class="input-field center">
+                <button class="btn">Submit</button>
+              </div>
+            </form>
+          </div>
+        </div>
+      </section>
+
+      <!-- footer -->
+      <footer class="page-footer grey darken-3">
+        <div class="container">
+          <div class="row">
+            <div class="col l6 s12">
+              <h5>About Me</h5>
+              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum at lacus congue.</p>
+              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum at lacus congue, suscipit elit nec,
+                tincidunt orci.</p>
+            </div>
+            <div class="col l4 offset-l2 s12">
+              <h5 class="white-text">Connect</h5>
+              <ul>
+                <li><a class="grey-text text-lighten-3" href="#">Github</a></li>
+                <li><a class="grey-text text-lighten-3" href="#">Facebook</a></li>
+                <li><a class="grey-text text-lighten-3" href="#www.linkedin.com/in/sallyhello1">Linkedin</a></li>
+                <li><a class="grey-text text-lighten-3" href="#">Twitter</a></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+        <div class="footer-copyright grey darken-4">2021 Sally Rodgers</div>
+        </div>
+      </footer>
+
+      <!-- Compiled and minified JavaScript -->
+      <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-beta/js/materialize.min.js"></script>
+      <script>
+        $(document).ready(function () {
+
+          $('.sidenav').sidenav();
+          $('.materialboxed').materialbox();
+          $('.parallax').parallax();
+          $('.tabs').tabs();
+
+          $('.tooltipped').tooltip();
+          $('.scrollspy').scrollSpy();
+
+        });
+      </script>
 </body>
+
 </html>

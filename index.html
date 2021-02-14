@@ -9,22 +9,37 @@
   <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
   <!-- Compiled and minified CSS -->
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-beta/css/materialize.min.css">
+  <!-- Local CSS Styles -->
+  <link rel="stylesheet" href="css/style.css" />
   <title>Sally Rodgers</title>
   <style>
+    
     header{
       background: url(img/brianLewicki-unsplash-1589352511666-341e33517a0b.jpg);
       background-size: cover;
       background-position: center;
-      min-height: 150px;
-    }
+      min-height: 10px;
+      width: 100%;
+    } 
     @media screen and (max-width: 670px){
       header{
-        min-height: 500px;
+        min-height: 150px;
+        width: 100%px;
       }
     }
+    .nav{
+      background: url(img/brianLewicki-unsplash-1589352511666-341e33517a0b.jpg);
+      background-size: cover;
+      text-align: left;
+      background-position: center;
+      min-height: 150px;
+    } 
     .section{
       padding-top: 4vw;
       padding-bottom: 4vw;
+    }
+    .img{
+      height: 50%;
     }
     .tabs .indicator{
       background-color: #1a237e;
@@ -38,11 +53,11 @@
 
   <!-- navbar -->
   <header>
-    
-    <nav class="nav-wrapper transparent">
-        <h4  class = "left-align white-text">Sally Rodgers</h4>
-      <div class="container">
-        <a href="#" class="brand-logo left-align indigo-text ">Sally Rodgers</a>
+    <div >
+      </div>
+    <nav class="nav-wrapper transparent ">
+         <div class="container width = 100%">
+        <a href="#" class="brand-logo left-align white-text ">Sally Rodgers</a>
      
         <a href="#" class="sidenav-trigger" data-target="mobile-menu">
           <i class="material-icons">menu</i>
@@ -74,23 +89,25 @@
   </header>
 
   <!-- photo / grid -->
-  <section class="container section scrollspy  " id="photos">
-   v>
+  <section class="container section scrollspy  " id="selfie">
     <div class="row">
       <div class="col s12 l4">
         <h4 class= "indigo-text">Sally Rodgers</h4>
           <img src="img/myProfilepic.PNG" alt="" class="responsive-img materialboxed">
+          <h5 class = "indigo-text">Full Stack Web Developer</h5>
       </div>
       <div class="col s12 l6 offset-l1">
         <h2 class="indigo-text text-darken-4">Summary</h2>
-        <p>This section here should contain my general biography and my current location.</p>
+        <p>Hello! I am Sally Rodgers and I have been working within the IT Industry for more than 20 years.
+        I have an MSc in Computing Science and had been working in particular as a Database designer and programmer, until
+        a car accident within my family forced an employment gap. Since returning back to work, my work has mostly been 
+        within data analysis and reporting.  While Coronavirus has meant a hiatus in several activities, I decided to expand
+        my horizons and develop new skills.</p>
       </div>
     </div>
+     <br> 
     <div class="row">
-        <h3>Full Stack Web Developer</h3>
-    </div> <br> 
-    <div class="row">
-        <h5>email: need a professional one here</h5>
+        <h5>email: sallyhello1@yahoo.com</h5>
     </div> 
     
   </section>

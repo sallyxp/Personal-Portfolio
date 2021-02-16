@@ -23,7 +23,10 @@ The site is one continuous web page, which is mobile-responsive, starting with a
 
 and various icons & names of technologies used. Beneath the image is also a link to my CV, held on my Google Drive.  In addition this link is also listed above.
 
-![Alt text](/relative/path/to/HTML-Summary-part1.jpg?raw=true )
+![Alt text](/relative/path/to/Readm Images/HTML-part1-Summary.jpg?raw=true )
+![Alt text](/relative/path/to/Readm Images/HTML-part2-Portfolio.jpg?raw=true )
+![Alt text](/relative/path/to/Readm Images/HTML-part3-Portfolio.jpg?raw=true )
+
 
 The next section contains a parallax image of Birminghamm City Centre, and then below it, My Portfolio.
 

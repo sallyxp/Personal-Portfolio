@@ -16,13 +16,14 @@ To run this webpage, click on the link below:
  
  # Usage
  
-This repository contains an HTML page and associated files used to demonstrate my current abilities on my journey to become a Full Stack Web Developer.  The site is 
+This repository contains an HTML page and associated files used to demonstrate my current abilities on my journey to become a Full Stack Web Developer. 
 
-one continuous web page, which is mobile-responsive, starting with a short biography.  The navigation bar navigates within the document, taking the using down to the Portfolio
 
-and Contact areas.  There are also links to my Github Repository and Linkedin Page and to my email address.  In addition, there is a picture of me and various icons & names of 
+The site is one continuous web page, which is mobile-responsive, starting with a short biography.  The navigation bar navigates within the document, taking the user
 
-technologies used. Beneath the image is also a link to my CV, held on my Google Drive.  In addition this link is also listed above.
+and various icons & names of technologies used. Beneath the image is also a link to my CV, held on my Google Drive.  In addition this link is also listed above.
+
+https://github.com/sallyxp/Professional-Materials/blob/main/Readme%20Images/HTML-part1-Summary.png
 
 The next section contains a parallax image of Birminghamm City Centre, and then below it, My Portfolio.
 

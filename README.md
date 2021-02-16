@@ -23,12 +23,13 @@ The site is one continuous web page, which is mobile-responsive, starting with a
 
 and various icons & names of technologies used. Beneath the image is also a link to my CV, held on my Google Drive.  In addition this link is also listed above.
 
-![Alt text](/relative/path/to/Readm Images/HTML-part1-Summary.jpg?raw=true )
-![Alt text](/relative/path/to/Readm Images/HTML-part2-Portfolio.jpg?raw=true )
-![Alt text](/relative/path/to/Readm Images/HTML-part3-Portfolio.jpg?raw=true )
+
+http://github.com/sallyxp/Professional-Materials/Relative_Images/HTML-part1-Summary.png
+http://github.com/sallyxp/Professional-Materials/Relative_Images/HTML-part2-Portfolio.png
+http://github.com/sallyxp/Professional-Materials/Relative_Images/HTML-part3-Portfolio.png
 
 
-The next section contains a parallax image of Birminghamm City Centre, and then below it, My Portfolio.
+The next section contains a parallax image of Birmingham City Centre, and then below it, My Portfolio.
 
 The first item is a Week-Day-Scheduler, there is a brief description of it, a screenshot, a link to its Github Repository and another link to the deployed webpage.
 

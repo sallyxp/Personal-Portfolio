@@ -23,6 +23,26 @@ body {
       min-height: 300px;
     }
   }
+
+.container {
+    position: relative;
+    
+  
+  }
+  .text-block {
+    position: absolute;
+    bottom: 200px;
+    right: 200px;
+    background: transparent;
+    color: white;
+    padding-left: 10px;
+    padding-right: 20px;
+  
+    text-align: center;
+    font-weight: 250;
+    text-shadow: 2px 2px #333;
+  
+  }
   .contact{
     height: 50%;
     width: 50%;

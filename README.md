@@ -24,15 +24,17 @@ The site is one continuous web page, which is mobile-responsive, starting with a
 and various icons & names of technologies used. Beneath the image is also a link to my CV, held on my Google Drive.  In addition this link is also listed above.
 
 
-![alt text]Readme_Images/HTML-part1-Summary.png
+![alt text]ReadmeImages/HTML-part1-Summary.png
 
-![alt text]Readme_Images/HTML-part2-Portfolio.png
+![alt text]ReadmeImages/HTML-part2-Portfolio.png
 
-![alt text]Readme_Images/HTML-part3-Portfolio.png
+![alt text]ReadmeImages/HTML-part3-Portfolio.png
 
-https://github.com/sallyxp/Professional-Materials/blob/main/Readme_Images/HTML-part2-Portfolio.png
+![alt text]ReadmeImages/Screenshot.png
 
-https://github.com/sallyxp/Professional-Materials/blob/main/Readme_Images/HTML-part3-Portfolio.png
+
+
+
 
 
 The next section contains a parallax image of Birmingham City Centre, and then below it, My Portfolio.

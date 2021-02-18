@@ -25,7 +25,9 @@ and various icons & names of technologies used. Beneath the image is also a link
 
 
 ![alt text]Readme_Images/HTML-part1-Summary.png
+
 ![alt text]Readme_Images/HTML-part2-Portfolio.png
+
 ![alt text]Readme_Images/HTML-part3-Portfolio.png
 
 https://github.com/sallyxp/Professional-Materials/blob/main/Readme_Images/HTML-part2-Portfolio.png

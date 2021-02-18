@@ -89,29 +89,46 @@
 
         </ul>
         <ul class="sidenav grey lighten-2" id="mobile-menu">
-          <li><a href="#">Home</a></li>
-          <li><a href="#">Portfolio</a></li>
-          <li><a href="#">Contact</a></li>
+          <li><a href="#selfie">Home</a></li>
+          <li><a href="#portfolio">Portfolio</a></li>
+          <li><a href="#contact">Contact</a></li>
         </ul>
       </div>
     </nav>
   </header>
-  
-<!-- Main Title and Background Image -->
-<div class="container section scrollspy" id="home">
-    <img src="img/istockphoto-royalty-free535475263-612x612.jpg" alt="Birmingham City Centre"
-     style="height: 50%; width:100%" >
 
-    <div class="text-block ">
-      <h1 class="display-3">Hello, I'm Sally Rodgers,</h1>
-      <h2 class="display-4">Full-Stack Web Developer student.</h2>
+  <!-- Main Title and Background Image -->
+  <div class="container section scrollspy" id="home">
+    <!--
+    <div class=" right hide-on-large-only">
+      <div class="text-block right  ">
+        <h2 class="white-text right">Hello, I'm Sally Rodgers,</h2>
+        <h3 class="white-text right">Full-Stack Web Developer student.</h3>
+      </div>
+    </div>
+  -->
+    <img src="img/istockphoto-royalty-free535475263-612x612.jpg" alt="Birmingham City Centre"
+      style="height: 50%; width:100%">
+
+
+    <div class="right hide-on-med-and-down">
+      <div class="text-block ">
+        <h1 class="display-3">Hello, I'm Sally Rodgers,</h1>
+        <h2 class="display-4">Full-Stack Web Developer student.</h2>
+      </div>
+    </div>
+
+    
+
+
     </div>
   </div>
+
   <!-- photo / grid -->
   <section class="container section scrollspy  " id="selfie">
     <div class="row">
       <div class="col s12 l4">
-        <h3 class="indigo-text">Sally Rodgers</h3>
+                <h3 class="indigo-text">Sally Rodgers</h3>   
         <img style="height: 50%" src="img/myProfilepic.PNG" alt="" class="responsive-img materialboxed">
         <br>
         <!-- contact form -->
@@ -122,27 +139,19 @@
             <h5 class="indigo-text"> <a href="https://www.linkedin.com/in/sallyhello1/" target="_blank"> Link to my
                 Linkedin page</a></h5>
           </div>
-
-
           <div class="row">
             <h5><i class="fas  blue resume-icon fa-envelope-square"></i></h5>
             <class class="indigo-text">
               <h5><a href="mailto:sallyhello1@yahoo.com" target="_blank">email: sallyhello1@yahoo.com</a></h5>
-
             </class>
           </div>
           <class class="row">
             <h5><i class="fab  blue fa-google"></i></h5>
-
             <class="tooltipped btn-large darken data-position="bottom" data-tooltip="My CV">
-
               <h5> <a href="https://drive.google.com/file/d/1aR7EbLE7CIa9lU8RjWXmNseDphJk49JV/view?usp=sharing"
-                  target="_blank"> Link to my CV</a></h5>
-
-
+              target="_blank"> Link to my CV</a></h5>
       </div>
-
-      <div class="col s12 l5 ">
+      <div class="col s12 l4 offset-l1" id="summary">
         <h3 class="indigo-text text-darken-4">Summary</h3>
         <h5>Hello! I am Sally Rodgers and I have been working within the IT Industry for more than 20 years.
           I have an MSc in Computing Science and had been working particularly as a Database designer and programmer,
@@ -151,13 +160,12 @@
           been
           within data analysis and reporting. While Coronavirus has meant a hiatus in several activities, I decided to
           expand
-          my horizons and develop new skills.</h5>
+          my horizons and develop new skills.
+        </h5>
         <br><br>
         <h3 class="indigo-text text-darken-4"> Skills ...</h3>
         <br><br>
-
         <div class="row">
-
           <h5><i class="fab html-logo resume-icon fa-html5 left" aria-hidden="true"></i> </h5>
           <h5 class="indigo-text" right>HTML:5 </h5>
 
@@ -172,7 +180,6 @@
           <h6><img src="img/Materialize.png" aria-hidden="true" width="32" height="32"></h6>
           <link rel="Materialize" href="img/Materialize.png">
           <h5 class="indigo-text right"> Materialize </h5>
-
         </div>
         <div class="row">
           <h6 class="indigo-text left"> ))) </h6>
@@ -184,7 +191,7 @@
       </div>
 
     </div>
-    </div>
+  </div>
 
     <br>
 
@@ -307,7 +314,7 @@
         <footer class="page-footer blue darken-3 ">
           <div class="footer-copyright blue darken-4">© 2021 Sally Rodgers</div>
         </footer>
-      </div>                                             
+      </div>
 
       <!-- Compiled and minified JavaScript -->
       <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>

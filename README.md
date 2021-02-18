@@ -24,13 +24,14 @@ The site is one continuous web page, which is mobile-responsive, starting with a
 and various icons & names of technologies used. Beneath the image is also a link to my CV, held on my Google Drive.  In addition this link is also listed above.
 
 
-![alt text]ReadmeImages/HTML-part1-Summary.png
+![alt text](ReadmeImages/HTML-part1-Summary.png)
 
-![alt text]ReadmeImages/HTML-part2-Portfolio.png
 
-![alt text]ReadmeImages/HTML-part3-Portfolio.png
+![alt text](ReadmeImages/HTML-part2-Portfolio.png)
 
-![alt text]ReadmeImages/Screenshot.png
+![alt text](ReadmeImages/HTML-part3-Portfolio.png)
+
+![alt text](ReadmeImages/Screenshot.png)
 
 
 

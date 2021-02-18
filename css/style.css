@@ -18,10 +18,42 @@ body {
     min-height: 150px;
   }
   */
-  @media screen and (max-width: 670px){
+  @media screen and (max-width: 768px){
     header{
       min-height: 300px;
     }
+    h1 {
+      font-size: 2em;
+    }
+  h2 {
+      font-size: 1.75em;
+    }
+  h3 {
+      font-size: 1.5em;
+    }
+  h4 {
+      font-size: 1.25em;
+  }
+  h5, a {
+    font-size: 1em;
+}
+btn, btn-secondary {
+  font-size: 1em;
+  width: 50%;
+}
+
+  .contact{
+    text-align: right;
+    padding-left: 5px;
+  }
+  .summary {
+    padding-left: 10px;
+  }
+  body {
+    padding: 5em;
+    font-size: 1.25em;
+  }
+
   }
 
 .container {
@@ -85,16 +117,7 @@ body {
 height: 100%;
 width: 50%;
   }
-/* Nutrition Tracking */
-.itemDiv h6 {
-    text-align: center;
-}
 
-.itemDiv {
-    font-size: 10px;
-    margin: 2%;
-    text-align: center;
-}
 
 
 /* Brand Logo */
@@ -102,10 +125,6 @@ width: 50%;
     font-family: 'Times New Roman', Times, serif;
     font-weight: bold;
 }
-
-
-
-
 
 .li-card {
     padding: 1%;

@@ -17,21 +17,21 @@
   <link rel="stylesheet" href="css/style.css" />
   <title>Sally Rodgers</title>
   <style>
+    /* this is the one that works */
+
     header {
-      background: url(img/brianLewicki-unsplash-1589352511666-341e33517a0b.jpg);
-      background-size: cover;
-      background-position: center;
-      min-height: 10px;
-      width: 100%;
+      background-color: #1e88e5;
     }
 
     @media screen and (max-width: 670px) {
       header {
+        background-size: cover;
         min-height: 150px;
         width: 100%px;
       }
     }
 
+    /* mobile responsiveness?? */
     .nav {
       background: url(img/brianLewicki-unsplash-1589352511666-341e33517a0b.jpg);
       background-size: cover;
@@ -40,13 +40,13 @@
       min-height: 150px;
     }
 
-    .section {
+    */ .section {
       padding-top: 4vw;
       padding-bottom: 4vw;
     }
 
     .tabs .indicator {
-      background-color: #1a237e;
+      background-color: #3a49f8c2;
     }
 
     .tabs .tab a:focus,
@@ -64,35 +64,37 @@
     </div>
     <nav class="nav-wrapper  navbar-fixed transparent ">
       <div class="container width = 100%">
-        <!--
+        <header class="page-header blue ">
+          <!--
         <a href="#" class="brand-logo left-align white-text ">Sally Rodgers</a>
         -->
-        <a href="#" class="sidenav-trigger" data-target="mobile-menu">
-          <i class="material-icons">menu</i>
-        </a>
-        <ul class="right hide-on-med-and-down">
-          <li><a href="#selfie">Home</a></li>
-          <li><a href="#portfolio">Portfolio</a></li>
-          <li><a href="#contact">Contact</a></li>
-          <li><a href="https://github.com/sallyxp" target="_blank"
-              class="tooltipped btn-floating btn-small indigo darken-4" data-position="bottom" data-tooltip="Github">
-              <i class="fab fa-Github"></i>
-            </a></li>
-          <li><a href="https://www.linkedin.com/in/sallyhello1/" target="_blank"
-              class="tooltipped btn-floating btn-small indigo darken-4" data-position="bottom" data-tooltip="LinkedIn">
-              <i class="fab fa-linkedin"></i>
-            </a></li>
-          <li><a href="mailto:sallyhello1@yahoo.com" target="_blank"
-              class="tooltipped btn-floating btn-small indigo darken-4" data-position="bottom" data-tooltip="Email">
-              <i class="fas  blue resume-icon fa-envelope-square"></i>
-            </a></li>
+          <a href="#" class="sidenav-trigger" data-target="mobile-menu">
+            <i class="material-icons">menu</i>
+          </a>
+          <ul class="right hide-on-med-and-down">
+            <li><a href="#selfie">Home</a></li>
+            <li><a href="#portfolio">Portfolio</a></li>
+            <li><a href="#contact">Contact</a></li>
+            <li><a href="https://github.com/sallyxp" target="_blank"
+                class="tooltipped btn-floating btn-small indigo darken-4" data-position="bottom" data-tooltip="Github">
+                <i class="fab fa-Github"></i>
+              </a></li>
+            <li><a href="https://www.linkedin.com/in/sallyhello1/" target="_blank"
+                class="tooltipped btn-floating btn-small indigo darken-4" data-position="bottom"
+                data-tooltip="LinkedIn">
+                <i class="fab fa-linkedin"></i>
+              </a></li>
+            <li><a href="mailto:sallyhello1@yahoo.com" target="_blank"
+                class="tooltipped btn-floating btn-small indigo darken-4" data-position="bottom" data-tooltip="Email">
+                <i class="fas  blue resume-icon fa-envelope-square"></i>
+              </a></li>
 
-        </ul>
-        <ul class="sidenav grey lighten-2" id="mobile-menu">
-          <li><a href="#selfie">Home</a></li>
-          <li><a href="#portfolio">Portfolio</a></li>
-          <li><a href="#contact">Contact</a></li>
-        </ul>
+          </ul>
+          <ul class="sidenav grey lighten-2" id="mobile-menu">
+            <li><a href="#selfie">Home</a></li>
+            <li><a href="#portfolio">Portfolio</a></li>
+            <li><a href="#contact">Contact</a></li>
+          </ul>
       </div>
     </nav>
   </header>
@@ -102,8 +104,8 @@
     <!--
     <div class=" right hide-on-large-only">
       <div class="text-block right  ">
-        <h2 class="white-text right">Hello, I'm Sally Rodgers,</h2>
-        <h3 class="white-text right">Full-Stack Web Developer student.</h3>
+        <h2 class=" flow-text white-text right">Hello, I'm Sally Rodgers,</h2>
+        <h3 class=" flow-text white-text right">Full-Stack Web Developer student.</h3>
       </div>
     </div>
   -->
@@ -111,24 +113,24 @@
       style="height: 50%; width:100%">
 
 
-    <div class="right hide-on-med-and-down">
-      <div class="text-block ">
-        <h1 class="display-3">Hello, I'm Sally Rodgers,</h1>
-        <h2 class="display-4">Full-Stack Web Developer student.</h2>
-      </div>
+    <!--<div class="right hide-on-med-and-down">-->
+    <div class="text-block ">
+      <h1 class="flow-text display-3">Hello, I'm Sally Rodgers,</h1>
+      <h2 class="flow-text display-4">Full-Stack Web Developer student.</h2>
     </div>
+    <!--</div>-->
 
-    
 
 
-    </div>
+
+  </div>
   </div>
 
   <!-- photo / grid -->
   <section class="container section scrollspy  " id="selfie">
     <div class="row">
       <div class="col s12 l4">
-                <h3 class="indigo-text">Sally Rodgers</h3>   
+        <h3 class="indigo-text">Sally Rodgers</h3>
         <img style="height: 50%" src="img/myProfilepic.PNG" alt="" class="responsive-img materialboxed">
         <br>
         <!-- contact form -->
@@ -149,9 +151,9 @@
             <h5><i class="fab  blue fa-google"></i></h5>
             <class="tooltipped btn-large darken data-position="bottom" data-tooltip="My CV">
               <h5> <a href="https://drive.google.com/file/d/1aR7EbLE7CIa9lU8RjWXmNseDphJk49JV/view?usp=sharing"
-              target="_blank"> Link to my CV</a></h5>
+                  target="_blank"> Link to my CV</a></h5>
       </div>
-      <div class="col s12 l4 offset-l1" id="summary">
+      <div class="col s12 m4 l4 offset-l1" id="summary">
         <h3 class="indigo-text text-darken-4">Summary</h3>
         <h5>Hello! I am Sally Rodgers and I have been working within the IT Industry for more than 20 years.
           I have an MSc in Computing Science and had been working particularly as a Database designer and programmer,
@@ -163,30 +165,50 @@
           my horizons and develop new skills.
         </h5>
         <br><br>
-        <h3 class="indigo-text text-darken-4"> Skills ...</h3>
+        <h3 class="indigo-text text-darken-4 "> ... Skills ...</h3>
         <br><br>
-        <div class="row">
-          <h5><i class="fab html-logo resume-icon fa-html5 left" aria-hidden="true"></i> </h5>
-          <h5 class="indigo-text" right>HTML:5 </h5>
+        <!-- Skills with Language Icons -->
 
-          <h5><i class="fab css-logo resume-icon fa-css3 right" aria-hidden="true"></i></h5>
-          <h5 class="indigo-text left "> CSS3 </h5>
+        <div class="skills">
+          <div>
+            <h5><i class="fab html-logo fa-html5 left" aria-hidden="true" style="max-width: 30px"></i> </h5>
+            <h5 class="indigo-text">HTML:5 </h5>
+          </div>
+          <div>
+            <h5><i class="fab css-logo fa-css3 left" aria-hidden="true" style="max-width: 30px"></i></h5>
+            <h5 class="indigo-text">CSS3 </h5>
+          </div>
+          <div>
+            <h5><i class="fab js-logo fa-js-square left" aria-hidden="true" style="max-width: 30px"></i></h5>
+            <h5 class="indigo-text">JavaScript </h5>
+          </div>
+          <!--Materialize-->  
+          <div>
+            <h5><img src="img/Materialize.png" aria-hidden="true" style="max-width: 30px">
+            <link rel="Materialize" href="img/Materialize.png">
+            <class="indigo-text"> Materialize </h5>
+          </div>
+          <!--Node-->
+          <div>
+            <h5><i class="fab n-js-logo  fa-node left" aria-hidden="true"></i></h5>
+            <h5 class="indigo-text "> Node.js </h5>
+          </div>
+            <!--MongoDB-->
+            <h5><img src="img/Mongodb.png" aria-hidden="true" width="32" height="32">
+            <link rel="MongoDB" href="img/Mongodb.png">
+            <class="indigo-text "> MongoDB </h5>
+          </div>
+          <div>
+            <h5><img src="img/mochajs-icon.svg" aria-hidden="true" width="32" height="32">
+            <class="indigo-text "> MOCHA </h5>
+          </div>
+          <div>
+            <!--JQuery-->
+        
+            <h5 class="indigo-text "> ))) JQuery </h5>
+          </div>
 
-          <h5><i class="fab js-logo resume-icon fa-js-square right" aria-hidden="true"></i></h5>
-          <h5 class="indigo-text left"> JavaScript </h5>
-        </div>
-        <div class="row">
 
-          <h6><img src="img/Materialize.png" aria-hidden="true" width="32" height="32"></h6>
-          <link rel="Materialize" href="img/Materialize.png">
-          <h5 class="indigo-text right"> Materialize </h5>
-        </div>
-        <div class="row">
-          <h6 class="indigo-text left"> ))) </h6>
-          <h5 class="indigo-text right"> JQuery </h5>
-
-          <h5><i class="fab n-js-logo resume-icon fa-node right" aria-hidden="true"></i></h5>
-          <h5 class="indigo-text left "> Node.js </h5>
         </div>
       </div>
 
@@ -194,9 +216,6 @@
   </div>
 
     <br>
-
-
-
   </section>
 
   <!-- parallax -->

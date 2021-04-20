@@ -4,6 +4,15 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <!-- Favicon -->
+  <link rel="shortcut icon" type="img/x-icon" href="favicon.ico">
+  <link rel="apple-touch-icon" sizes="180x180" href="img/apple-touch-icon.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="img/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="img/favicon-16x16.png">
+  <!--
+      <link rel="shortcut icon" type="img/x-icon" href="img/favicon-16x16.png"/>
+      -->
+  <link rel="manifest" href="img/site.webmanifest">
   <!-- font awesome -->
   <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css"
     integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp" crossorigin="anonymous">
@@ -53,6 +62,13 @@
     .tabs .tab a:focus.active {
       background: transparent;
     }
+
+    .smaller {
+      padding-left: 5em;
+    }
+    .bigger {
+      padding-top: 10em;
+    }
   </style>
 </head>
 
@@ -101,30 +117,35 @@
 
   <!-- Main Title and Background Image -->
   <div class="container section scrollspy" id="home">
-    <!--
-    <div class=" right hide-on-large-only">
-      <div class="text-block right  ">
-        <h2 class=" flow-text white-text right">Hello, I'm Sally Rodgers,</h2>
-        <h3 class=" flow-text white-text right">Full-Stack Web Developer student.</h3>
+
+    <img src="img/istockphoto-royalty-free535475263-612x612.jpg" alt="Birmingham City Centre"
+    style="height: 50%; width:100%">
+    <div class="smaller">
+      <div class=" right hide-on-large-only">
+        <div class="text-block center  ">
+
+          <h3 class=" flow-text white-text right">Hello, I'm Sally Rodgers,</h3>
+          <h4 class=" flow-text white-text right">Full-Stack Web Developer student.</h4>
+        </div>
       </div>
     </div>
-  -->
-    <img src="img/istockphoto-royalty-free535475263-612x612.jpg" alt="Birmingham City Centre"
-      style="height: 50%; width:100%">
 
+    <div class="bigger">
+      <div class="right hide-on-med-and-down">
+        <div class="text-block ">
 
-    <!--<div class="right hide-on-med-and-down">-->
-    <div class="text-block ">
-      <h1 class="flow-text display-3">Hello, I'm Sally Rodgers,</h1>
-      <h2 class="flow-text display-4">Full-Stack Web Developer student.</h2>
+          <h1 class="flow-text display-3">Hello, I'm Sally Rodgers,</h1>
+          <h2 class="flow-text display-4">Full-Stack Web Developer student.</h2>
+        </div>
+
+      </div>
     </div>
-    <!--</div>-->
 
-
+  
 
 
   </div>
-  </div>
+
 
   <!-- photo / grid -->
   <section class="container section scrollspy  " id="selfie">
@@ -175,37 +196,38 @@
             <h5 class="indigo-text">HTML:5 </h5>
           </div>
           <div>
-            <h5><i class="fab css-logo fa-css3 left" aria-hidden="true" style="max-width: 30px"></i></h5>
+            <h5><i class="fab css-logo fa-css3 yellow-text left" aria-hidden="true" style="max-width: 30px"></i></h5>
             <h5 class="indigo-text">CSS3 </h5>
           </div>
           <div>
             <h5><i class="fab js-logo fa-js-square left" aria-hidden="true" style="max-width: 30px"></i></h5>
             <h5 class="indigo-text">JavaScript </h5>
           </div>
-          <!--Materialize-->  
+          <!--Materialize-->
           <div>
             <h5><img src="img/Materialize.png" aria-hidden="true" style="max-width: 30px">
-            <link rel="Materialize" href="img/Materialize.png">
-            <class="indigo-text"> Materialize </h5>
+              <link rel="Materialize" href="img/Materialize.png">
+              <class="indigo-text"> Materialize
+            </h5>
           </div>
           <!--Node-->
           <div>
             <h5><i class="fab n-js-logo  fa-node left" aria-hidden="true"></i></h5>
             <h5 class="indigo-text "> Node.js </h5>
           </div>
-            <!--MongoDB-->
-            <h5><img src="img/Mongodb.png" aria-hidden="true" width="32" height="32">
+          <!--MongoDB-->
+          <h5><img src="img/Mongodb.png" aria-hidden="true" width="32" height="32">
             <link rel="MongoDB" href="img/Mongodb.png">
             <class="indigo-text "> MongoDB </h5>
           </div>
           <div>
-            <h5><img src="img/mochajs-icon.svg" aria-hidden="true" width="32" height="32">
-            <class="indigo-text "> MOCHA </h5>
+            <h5><img src=" img/mochajs-icon.svg" aria-hidden="true" width="32" height="32">
+              <class="indigo-text "> MOCHA </h5>
           </div>
           <div>
             <!--JQuery-->
         
-            <h5 class="indigo-text "> ))) JQuery </h5>
+            <h5 class=" indigo-text "> ))) JQuery </h5>
           </div>
 
 
@@ -219,180 +241,198 @@
   </section>
 
   <!-- parallax -->
-  <div class="parallax-container">
-    <div class="parallax">
-      <img src="img/brianLewicki-unsplash-1589352511666-341e33517a0b.jpg" alt="" class="responsive-img">
-    </div>
-  </div>
-
-
-
-  <!-- PORTFOLIO-->
-  <!-- Contents -->
-  <main class="container section " id="portfolio">
-    <div class="row">
-      <h2 class="indigo-text text-darken-4">My Portfolio</h2>
-    </div>
-    <section class="row">
-
-      <div class="col l4 m4 hide-on-small-only">
-        <img style="width: 100%" src="img/dayScheduler.png" alt="Work Day Scheduler"
-          class="responsive-img materialboxed">
-        <!--Git Hub and Page Links-->
-        <a href="https://sallyxp.github.io/Work-Day-Scheduler/" target="_blank" class="btn btn-secondary blue">Visit the
-          live
-          page</a>
-        <a href="https://github.com/sallyxp/Work-Day-Scheduler" target="_blank" class="btn btn-secondary blue">
-          <i class="fab fa-github btn-icon blue" aria-hidden="true"></i> Github Repository</a>
-      </div>
-
-      <div class="col l6 offset-l1  m6 hide-on-small-only">
-        <h2 class="flow-text indigo-text text-darken-3">Work Day Scheduler</h2>
-        <p class="flow-text left-align">This project creates a simple calendar application to allow a user to save
-          events for each hour
-          of the day by modifying starter code. This app will run in the browser and feature dynamically updated HTML
-          and CSS powered
-          by jQuery.</p>
-      </div>
-    </section>
-
-    <section class="row">
-      <div class="col s12 hide-on-med-and-up">
-
-        <h4 class="flow-text indigo-text text-darken-3">Work Day Scheduler</h4>
-        <h5 class="flow-text ">This project creates a simple calendar application to allow a user to save events for
-          each hour of the day by modifying
-          starter code. This app will run in the browser and feature dynamically updated HTML and CSS powered by jQuery.
-        </h5>
-
-      </div>
-      <div class="col s8 hide-on-med-and-up">
-        <img src="img/dayScheduler.png" alt="Work Day Scheduler" class="responsive-img materialboxed">
-        <!--Git Hub and Page Links-->
-        <a href="https://sallyxp.github.io/Work-Day-Scheduler/" target="_blank" class="btn btn-secondary blue">Visit the
-          live
-          page</a>
-
-        <a href="https://github.com/sallyxp/Work-Day-Scheduler" target="_blank" class="btn btn-secondary blue">
-          <i class="fab fa-github btn-icon blue" aria-hidden="true"></i> Github Repository</a>
-      </div>
-    </section>
-    
-
-    <!--PASSWORD GENERATOR-->
-    <main class="container section " id="portfolio">
-      <section class="row">
-        <div class="col l4 m4 hide-on-small-only">
-          <img style="width: 100%" src="img/PasswordGenerator.png" alt=" Password Generator Screen"
-            class="responsive-img materialboxed">
-
-          <!--Git Hub and Page Links-->
-          <a href="https://sallyxp.github.io/Password-Generator/" target="_blank" class="btn btn-secondary blue">Visit
-            the live
-            page</a>
-          <a href="https://github.com/sallyxp/Password-Generator" target="_blank" class="btn btn-secondary blue">
-            <i class="fab fa-github btn-icon blue" aria-hidden="true"></i> Github Repository</a>
-
+  <div class=" parallax-container">
+                <div class="parallax">
+                  <img src="img/brianLewicki-unsplash-1589352511666-341e33517a0b.jpg" alt="" class="responsive-img">
+                </div>
         </div>
-        <div class="col l6 offset-l1  m6 hide-on-small-only">
-          <h2 class="flow-text indigo-text text-darken-3">Password Generator</h2>
-          <p class="flow-text left-align">This repository stores a Javascript password generator program.</p>
-          <p class="flow-text left-align">For any selected number
-            between 8 and 128, this program generates a random string. This string (based on user
-            selected choice of character types) can be any combination of uppercase, lowercase,
-            numerical and special characters.</p>
-
-        </div>
-      </section>
-
-      <section class="row">
-        <div class="col s12 hide-on-med-and-up">
-
-          <h4 class="flow-text indigo-text text-darken-3">Password Generator</h4>
-          <p class="flow-text left-align">This repository stores a Javascript password generator program.</p>
-          <p class="flow-text left-align">For any selected number
-            between 8 and 128, this program generates a random string. This string (based on user
-            selected choice of character types) can be any combination of uppercase, lowercase,
-            numerical and special characters.</p>
-
-        </div>
-        <div class="col s8 hide-on-med-and-up">
-          <img src="img/PasswordGenerator.png" alt="Work Day Scheduler" class="responsive-img materialboxed">
-          <!--Git Hub and Page Links-->
-          <a href="https://sallyxp.github.io/Password-Generator/" target="_blank" class="btn btn-secondary blue">Visit
-            the live
-            page</a>
-          <a href="https://github.com/sallyxp/Password-Generator" target="_blank" class="btn btn-secondary blue">
-            <i class="fab fa-github btn-icon blue" aria-hidden="true"></i> Github Repository</a>
-        </div>
-      </section>
-
-    <!--A FEW FRIES SHORT-->
-    <main class="container section " id="portfolio">
-      <section class="row">
-        <div class="col l4 m4 hide-on-small-only">
-          <img style="width: 100%" src="img/Landingpage.png" alt=" a few fries short landing page"
-            class="responsive-img materialboxed">
-
-          <!--Git Hub and Page Links-->
-          <a href="https://few-fries-short.herokuapp.com/" target="_blank" class="btn btn-secondary red darken-3">Visit
-            the live page</a>
-          <a href="https://github.com/sallyxp/a-few-fries-short" target="_blank" class="btn btn-secondary red darken-3">
-            <i class="fab fa-github btn-icon red darken-3" aria-hidden="true"></i> Github Repository</a>
-
-        </div>
-        <div class="col l6 offset-l1  m6 hide-on-small-only">
-          <h2 class="flow-text red-text text-darken-3">A Few Fries Short!</h2>
-          <p class="flow-text left-align">This repository contains a project, built collaboratively, using node.js, handlebars.js,
-          Sequelize and mySQL2, using the Model-View-Controller paradigm.  It is a restaurant review site which allows the user to publish 
-            reviews and subsequent comments and thoughts about restaurants and fast food outlets.</p>
-
-        </div>
-      </section>
-
-      <section class="row">
-        <div class="col s12 hide-on-med-and-up">
-
-          <h4 class="flow-text indigo-text text-darken-3">a Few Fries Short</h4>
-          <p class="flow-text left-align">This repository contains a project built collaboratively using node.js, handlebars.js,
-            Sequelize and mySQL2, using the Model-View-Controller paradigm.  It is a restaurant review site which allows the user to publish 
-              reviews and subsequent comments and thoughts about restaurants and fast food outlets. </p>
-
-        </div>
-        <div class="col s8 hide-on-med-and-up">
-          <img src="img/Landingpage.png" alt="a few fries short landing page" class="responsive-img materialboxed">
-          <!--Git Hub and Page Links-->
-          <a href="https://few-fries-short.herokuapp.com/" target="_blank" class="btn btn-secondary blue">Visit
-            the live page (deployed to Heroku)</a>
-          <a href="https://github.com/sallyxp/a-few-fries-short" target="_blank" class="btn btn-secondary blue">
-            <i class="fab fa-github btn-icon red" aria-hidden="true"></i> Github Repository</a>
-        </div>
-      </section>
 
 
-      <!-- footer -->
-      <div class="row">
-        <footer class="page-footer blue darken-3 ">
-          <div class="footer-copyright blue darken-4">© 2021 Sally Rodgers</div>
-        </footer>
-      </div>
 
-      <!-- Compiled and minified JavaScript -->
-      <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
-      <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-beta/js/materialize.min.js"></script>
-      <script>
-        $(document).ready(function () {
+        <!-- PORTFOLIO-->
+        <!-- Contents -->
+        <main class="container section " id="portfolio">
+          <div class="row">
+            <h2 class="indigo-text text-darken-4">My Portfolio</h2>
+            <hr>
+            <h7 class="indigo-text text-darken-4">* double-click to enlarge images</h7>
+          </div>
+          <br>
+          <section class="row">
 
-          $('.sidenav').sidenav();
-          $('.materialboxed').materialbox();
-          $('.parallax').parallax();
+            <div class="col l4 m4 hide-on-small-only">
+              <img style="width: 100%" src="img/dayScheduler.png" alt="Work Day Scheduler"
+                class="responsive-img materialboxed">
+              <!--Git Hub and Page Links-->
+              <a href="https://sallyxp.github.io/Work-Day-Scheduler/" target="_blank"
+                class="btn btn-secondary blue">Visit the
+                live
+                page</a>
+              <a href="https://github.com/sallyxp/Work-Day-Scheduler" target="_blank" class="btn btn-secondary blue">
+                <i class="fab fa-github btn-icon blue" aria-hidden="true"></i> Github Repository</a>
+            </div>
+
+            <div class="col l6 offset-l1  m6 hide-on-small-only">
+              <h2 class="flow-text indigo-text text-darken-3">Work Day Scheduler</h2>
+              <p class="flow-text left-align">This project creates a simple calendar application to allow a user to save
+                events for each hour
+                of the day by modifying starter code. This app will run in the browser and feature dynamically updated
+                HTML
+                and CSS powered
+                by jQuery.</p>
+            </div>
+          </section>
+
+          <section class="row">
+            <div class="col s12 hide-on-med-and-up">
+
+              <h4 class="flow-text indigo-text text-darken-3">Work Day Scheduler</h4>
+              <h5 class="flow-text ">This project creates a simple calendar application to allow a user to save events
+                for
+                each hour of the day by modifying
+                starter code. This app will run in the browser and feature dynamically updated HTML and CSS powered by
+                jQuery.
+              </h5>
+
+            </div>
+            <div class="col s8 hide-on-med-and-up">
+              <img src="img/dayScheduler.png" alt="Work Day Scheduler" class="responsive-img materialboxed">
+              <!--Git Hub and Page Links-->
+              <a href="https://sallyxp.github.io/Work-Day-Scheduler/" target="_blank"
+                class="btn btn-secondary blue">Visit the
+                live
+                page</a>
+
+              <a href="https://github.com/sallyxp/Work-Day-Scheduler" target="_blank" class="btn btn-secondary blue">
+                <i class="fab fa-github btn-icon blue" aria-hidden="true"></i> Github Repository</a>
+            </div>
+          </section>
 
 
-          $('.tooltipped').tooltip();
-          $('.scrollspy').scrollSpy();
+          <!--PASSWORD GENERATOR-->
+          <main class="container section " id="portfolio">
+            <section class="row">
+              <div class="col l4 m4 hide-on-small-only">
+                <img style="width: 100%" src="img/PasswordGenerator.png" alt=" Password Generator Screen"
+                  class="responsive-img materialboxed">
 
-        });
-      </script>
+                <!--Git Hub and Page Links-->
+                <a href="https://sallyxp.github.io/Password-Generator/" target="_blank"
+                  class="btn btn-secondary blue">Visit
+                  the live
+                  page</a>
+                <a href="https://github.com/sallyxp/Password-Generator" target="_blank" class="btn btn-secondary blue">
+                  <i class="fab fa-github btn-icon blue" aria-hidden="true"></i> Github Repository</a>
+
+              </div>
+              <div class="col l6 offset-l1  m6 hide-on-small-only">
+                <h2 class="flow-text indigo-text text-darken-3">Password Generator</h2>
+                <p class="flow-text left-align">This repository stores a Javascript password generator program.</p>
+                <p class="flow-text left-align">For any selected number
+                  between 8 and 128, this program generates a random string. This string (based on user
+                  selected choice of character types) can be any combination of uppercase, lowercase,
+                  numerical and special characters.</p>
+
+              </div>
+            </section>
+
+            <section class="row">
+              <div class="col s12 hide-on-med-and-up">
+
+                <h4 class="flow-text indigo-text text-darken-3">Password Generator</h4>
+                <p class="flow-text left-align">This repository stores a Javascript password generator program.</p>
+                <p class="flow-text left-align">For any selected number
+                  between 8 and 128, this program generates a random string. This string (based on user
+                  selected choice of character types) can be any combination of uppercase, lowercase,
+                  numerical and special characters.</p>
+
+              </div>
+              <div class="col s8 hide-on-med-and-up">
+                <img src="img/PasswordGenerator.png" alt="Work Day Scheduler" class="responsive-img materialboxed">
+                <!--Git Hub and Page Links-->
+                <a href="https://sallyxp.github.io/Password-Generator/" target="_blank"
+                  class="btn btn-secondary blue">Visit
+                  the live
+                  page</a>
+                <a href="https://github.com/sallyxp/Password-Generator" target="_blank" class="btn btn-secondary blue">
+                  <i class="fab fa-github btn-icon blue" aria-hidden="true"></i> Github Repository</a>
+              </div>
+            </section>
+
+            <!--A FEW FRIES SHORT-->
+            <main class="container section " id="portfolio">
+              <section class="row">
+                <div class="col l4 m4 hide-on-small-only">
+                  <img style="width: 100%" src="img/Landingpage.png" alt=" a few fries short landing page"
+                    class="responsive-img materialboxed">
+
+                  <!--Git Hub and Page Links-->
+                  <a href="https://few-fries-short.herokuapp.com/" target="_blank"
+                    class="btn btn-secondary red darken-3">Visit
+                    the live page</a>
+                  <a href="https://github.com/sallyxp/a-few-fries-short" target="_blank"
+                    class="btn btn-secondary red darken-3">
+                    <i class="fab fa-github btn-icon red darken-3" aria-hidden="true"></i> Github Repository</a>
+
+                </div>
+                <div class="col l6 offset-l1  m6 hide-on-small-only">
+                  <h2 class="flow-text red-text text-darken-3">A Few Fries Short!</h2>
+                  <p class="flow-text left-align">This repository contains a project, built collaboratively, using
+                    node.js, handlebars.js,
+                    Sequelize and mySQL2, using the Model-View-Controller paradigm. It is a restaurant review site which
+                    allows the user to publish
+                    reviews and subsequent comments and thoughts about restaurants and fast food outlets.</p>
+
+                </div>
+              </section>
+
+              <section class="row">
+                <div class="col s12 hide-on-med-and-up">
+
+                  <h4 class="flow-text indigo-text text-darken-3">a Few Fries Short</h4>
+                  <p class="flow-text left-align">This repository contains a project built collaboratively using
+                    node.js, handlebars.js,
+                    Sequelize and mySQL2, using the Model-View-Controller paradigm. It is a restaurant review site which
+                    allows the user to publish
+                    reviews and subsequent comments and thoughts about restaurants and fast food outlets. </p>
+
+                </div>
+                <div class="col s8 hide-on-med-and-up">
+                  <img src="img/Landingpage.png" alt="a few fries short landing page"
+                    class="responsive-img materialboxed">
+                  <!--Git Hub and Page Links-->
+                  <a href="https://few-fries-short.herokuapp.com/" target="_blank" class="btn btn-secondary blue">Visit
+                    the live page (deployed to Heroku)</a>
+                  <a href="https://github.com/sallyxp/a-few-fries-short" target="_blank" class="btn btn-secondary blue">
+                    <i class="fab fa-github btn-icon red" aria-hidden="true"></i> Github Repository</a>
+                </div>
+              </section>
+
+
+              <!-- footer -->
+              <div class="row">
+                <footer class="page-footer blue darken-3 ">
+                  <div class="footer-copyright blue darken-4">© 2021 Sally Rodgers</div>
+                </footer>
+              </div>
+
+              <!-- Compiled and minified JavaScript -->
+              <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+              <script
+                src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-beta/js/materialize.min.js"></script>
+              <script>
+                $(document).ready(function () {
+
+                  $('.sidenav').sidenav();
+                  $('.materialboxed').materialbox();
+                  $('.parallax').parallax();
+
+
+                  $('.tooltipped').tooltip();
+                  $('.scrollspy').scrollSpy();
+
+                });
+              </script>
 </body>
 
 </html>

@@ -18,46 +18,7 @@ body {
     min-height: 150px;
   }
   */
-  @media screen and (max-width: 768px){
-    header{
-      min-height: 100px;
-    }
-    h1 {
-      font-size: 2em;
-    }
-  h2 {
-      font-size: 1.75em;
-    }
-  h3 {
-      font-size: 1.5em;
-    }
-  h4 {
-      font-size: 1.25em;
-  }
-  h5, a {
-    font-size: 1em;
-    color: rgb(2, 2, 59);
-}
-btn, btn-secondary {
-  font-size: 1em;
-  width: 50%;
-}
-
-  .contact{
-    text-align: right;
-    padding-left: 5px;
-  }
-  .summary {
-    padding-left: 10px;
-  }
-  body {
-    /*padding: 5em; */
-    font-size: 1.25em;
-  }
-
-  }
-
-.container {
+  .container {
     position: relative;
     
   
@@ -79,6 +40,7 @@ btn, btn-secondary {
   .contact{
     height: 50%;
     width: 50%;
+    padding-left: 5px;
 
   }
   .h4{
@@ -137,4 +99,70 @@ footer {
    
  
 }
+
+@media screen and (max-width: 567px){
+  .header{
+    height: 60%    
+    }
+  .summary {
+      padding-left: 20px;
+    }
+  .contact {
+    padding-left: 20px;
+  }
+
+}
+
+@media screen and (max-width: 670px) {
+  header {
+    background-size: cover;
+    min-height: 75px;
+  }
+  .summary {
+    padding-left: 10px;
+  }
+}
+
+
+
+  @media screen and (max-width: 768px){
+    header {
+      min-height: 50px;
+      }
+    h1 {
+      font-size: 2em;
+      }
+    h2 {
+      font-size: 1.75em;
+    }
+    h3 {
+      font-size: 1.5em;
+    }
+    h4 {
+      font-size: 1.25em;
+    }
+    h5, a {
+      font-size: 1em;
+      color: rgb(2, 2, 59);
+    }
+    btn, btn-secondary {
+      font-size: 1em;
+      width: 50%;
+    }
+
+    .contact{
+      text-align: right;
+      padding-left: 5px;
+    }
+    .summary {
+      padding-left: 10px;
+    }
+    body {
+      /*padding: 5em; */
+      font-size: 1.25em;
+    }
+
+  }
+
+
 

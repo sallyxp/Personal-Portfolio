@@ -21,7 +21,10 @@
   <title>Sally Rodgers</title>
   <style>
     header {
-      background-color: #1e88e5;
+      /*background-color: #1e88e5;*/
+      background-color: #1e2783c2;
+      color: #d1ae11c2;
+
     }
 
     .nav {
@@ -44,6 +47,7 @@
     .tabs .tab a:focus,
     .tabs .tab a:focus.active {
       background: transparent;
+      color: yellow
     }
 
     .smaller {
@@ -62,17 +66,8 @@
   <header>
     <nav class="nav-wrapper  navbar-fixed transparent ">
       <div class="container width = 100%">
-        <header class="page-header blue ">
-          <!--
-        <a href="#" class="brand-logo left-align white-text ">Sally Rodgers</a>
-        -->
-          <!--
-          <a href="#" class="sidenav-trigger" data-target="mobile-menu">
-            <i class="material-icons">menu</i>
-          </a> 
-          <ul class="right hide-on-med-and-down">
-          -->
-          <ul class="right ">
+        <header class="page-header yellow-text ">
+          <ul class="right">
             <li><a href="#selfie">Home</a></li>
             <li><a href="#portfolio">Portfolio</a></li>
             <li><a href="#contact">Contact</a></li>
@@ -91,12 +86,6 @@
               </a></li>
 
           </ul>
-          <!--intended for smaller screens - but good for all sizes
-          <ul class="sidenav blue lighten-2" id="mobile-menu">
-            <li><a href="#selfie">Home</a></li>
-            <li><a href="#portfolio">Portfolio</a></li>
-            <li><a href="#contact">Contact</a></li>
-          </ul> -->
       </div>
     </nav>
   </header>
@@ -111,8 +100,8 @@
       <div class=" right hide-on-large-only">
         <div class="text-block center  ">
 
-          <h2 class=" flow-text text-bold white-text right">Hello, I'm Sally Rodgers,</h2>
-          <h3 class=" flow-text text-bold white-text right">Full-Stack Web Developer student.</h3>
+          <h2 class=" flow-text text-bold yellow-text right">Hello, I'm Sally Rodgers,</h2>
+          <h3 class=" flow-text text-bold yellow-text right">Full-Stack Web Developer student.</h3>
         </div>
       </div>
     </div>
@@ -121,8 +110,8 @@
       <div class="right hide-on-med-and-down">
         <div class="text-block ">
 
-          <h1 class="flow-text display-3">Hello, I'm Sally Rodgers,</h1>
-          <h2 class="flow-text display-4">Full-Stack Web Developer student.</h2>
+          <h1 class="flow-text yellow-text display-3">Hello, I'm Sally Rodgers,</h1>
+          <h2 class="flow-text yellow-text display-4">Full-Stack Web Developer student.</h2>
         </div>
 
       </div>
@@ -134,12 +123,12 @@
   <section class="container section scrollspy  " id="selfie">
     <div class="row">
       <div class="col s10 offset-s2 m4 offset-m1 l4 offset-l1">
-        <h3 class="indigo-text">Sally Rodgers</h3>
+        <h3 class="orange-text text-darken-4">Sally Rodgers</h3>
         <img style="height: 50%; width: 100% " src="img/myProfilepic.PNG" alt="" class="responsive-img materialboxed">
         <br>
         <!-- contact form -->
         <section class="section container scrollspy" id="contact">
-          <h4 class="indigo-text">Full Stack Web Developer - Contact Details:</h4> <br>
+          <h4 class="orange-text text-darken-4">Full Stack Web Developer - Contact Details:</h4> <br>
           <div class="row">
             <h5><i class="fab blue  fa-linkedin"> </i></h5>
             <h5 class="indigo-text"> <a href="https://www.linkedin.com/in/sallyhello1/" target="_blank"> Link to my
@@ -158,7 +147,7 @@
                   target="_blank"> Link to my CV</a></h5>
       </div>
       <div class="col s12 offset-s2 m4 offset-m1 l4 offset-l1" id="summary">
-        <h3 class="indigo-text text-darken-4">Summary</h3>
+        <h3 class="orange-text text-darken-4">Summary</h3>
         <h5>Hello! I am Sally Rodgers and I have been working within the IT Industry for more than 20 years.
           I have an MSc in Computing Science and had been working particularly as a Database designer and programmer,
           until
@@ -169,7 +158,7 @@
           my horizons and develop new skills.
         </h5>
         <br><br>
-        <h3 class="indigo-text text-darken-4 "> ... Skills ...</h3>
+        <h3 class="orange-text text-darken-4 "> ... Skills ...</h3>
         <br><br>
         <!-- Skills with Language Icons -->
 
@@ -231,11 +220,11 @@
         <!-- Contents -->
         <main class="container section " id="portfolio">
           <div class="row">
-              <div class="col l4 m4 offset-s1 s4 ">
-                <h2 class="indigo-text text-darken-4">My Portfolio</h2>
-              </div>  
-              <hr>
-            <h7 class="indigo-text text-darken-4">* double-click to enlarge images</h7>
+            <div class="col l4 m4 offset-s1 s4 ">
+              <h2 class="orange-text ">My Portfolio</h2>
+            </div>
+            <hr>
+            <h7 class="indigo-text text-darken-4">* double-click to enlarge an image</h7>
           </div>
           <br>
           <section class="row">
@@ -245,14 +234,15 @@
                 class="responsive-img materialboxed">
               <!--Git Hub and Page Links-->
               <a href="https://sallyxp.github.io/Work-Day-Scheduler/" target="_blank"
-                class="btn btn-secondary blue">Visit the live page</a>
-              <a href="https://github.com/sallyxp/Work-Day-Scheduler" target="_blank" class="btn btn-secondary blue">
+                class="btn btn-secondary blue z-depth-3">Visit the live page</a>
+              <a href="https://github.com/sallyxp/Work-Day-Scheduler" target="_blank"
+                class="btn btn-secondary blue z-depth-2 ">
                 <i class="fab fa-github btn-icon blue right" aria-hidden="true"></i> Github Repository</a>
             </div>
 
             <div class="col l5 offset-l1  m4 offset-m1 hide-on-small-only">
-              <h2 class="flow-text indigo-text text-darken-3">Work Day Scheduler</h2>
-              <p class="flow-text left-align">This project creates a simple calendar application to allow a user to save
+              <h2 class="flow-text orange-text">Work Day Scheduler</h2>
+              <p class="flow-text left-align">This project creates a simple daily calendar to allow a user to save
                 events for each hour
                 of the day by modifying starter code. This app will run in the browser and feature dynamically updated
                 HTML
@@ -264,7 +254,7 @@
           <section class="row">
             <div class="col offset-s1 s11 hide-on-med-and-up">
 
-              <h4 class="flow-text indigo-text text-darken-3">Work Day Scheduler</h4>
+              <h4 class="flow-text orange-text">Work Day Scheduler</h4>
               <h5 class="flow-text ">This project creates a simple calendar application to allow a user to save events
                 for
                 each hour of the day by modifying
@@ -305,7 +295,7 @@
 
               </div>
               <div class="col l4 offset-l1  m4 offset-m1 hide-on-small-only">
-                <h2 class="flow-text indigo-text text-darken-3">Password Generator</h2>
+                <h2 class="flow-text green-text">Password Generator</h2>
                 <p class="flow-text left-align">This repository stores a Javascript password generator program.</p>
                 <p class="flow-text left-align">For any selected number
                   between 8 and 128, this program generates a random string. This string (based on user
@@ -318,7 +308,7 @@
             <section class="row">
               <div class="col offset-s1 s12 hide-on-med-and-up">
 
-                <h4 class="flow-text indigo-text text-darken-3">Password Generator</h4>
+                <h4 class="flow-text green-text ">Password Generator</h4>
                 <p class="flow-text left-align">This repository stores a Javascript password generator program.</p>
                 <p class="flow-text left-align">For any selected number
                   between 8 and 128, this program generates a random string. This string (based on user
@@ -394,7 +384,7 @@
               <!-- footer -->
               <div class="row">
                 <footer class="page-footer blue darken-3 ">
-                  <div class="footer-copyright blue darken-4">© 2021 Sally Rodgers</div>
+                  <div class="footer-copyright yellow-text right"> © 2021 Sally Rodgers</div>
                 </footer>
               </div>
 

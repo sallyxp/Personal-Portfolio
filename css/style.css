@@ -3,14 +3,8 @@
 body {
     font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
    
-} */
-/*
-  .nav{
-    background: url(img/brianLewicki-unsplash-1589352511666-341e33517a0b.jpg);
-    
-   
-  }
-  /*
+} 
+ /*
   header{
     background: url(img/brianLewicki-unsplash-1589352511666-341e33517a0b.jpg);
     background-size: cover;
@@ -20,15 +14,16 @@ body {
   */
   .container {
     position: relative;
-    
-  
   }
+ .page-header {
+   color:rgb(223, 236, 32);
+ }
   .text-block {
     position: absolute;
     bottom: 200px;
     right: 200px;
     background: transparent;
-    color: white;
+    color: rgb(19, 46, 165);
     padding-left: 10px;
     padding-right: 20px;
   
@@ -56,6 +51,7 @@ body {
   }
   .tabs .tab a:focus, .tabs .tab a:focus.active{
     background: transparent;
+   
   } 
   
   
@@ -64,15 +60,21 @@ body {
     margin-bottom: 100px;
     font-family: sans-serif;
     font-size: 10px;
+    color:rgb(66, 40, 218);
     background-image: url("../img/jj-ying-WmnsGyaFnCQ-unsplash.jpg");
 } 
 .row .col{
   padding: 0rem;
 }
-/*Blue font */
+/*Blue font 
+
 .tabs .indicator{
-    background-color: #3a49f8c2;
-  }
+    /*background-color: #3a49f8c2;
+}
+    */
+    
+   
+  
   .tabs .tab a:focus, .tabs .tab a:focus.active{
     background: transparent;
   }
@@ -84,26 +86,35 @@ width: 50%;
 
 
 
-/* Brand Logo */
+/* Brand Logo 
 .brand {
     font-family: 'Times New Roman', Times, serif;
     font-weight: bold;
-}
+    
+} */
 
-.li-card {
+.li-card, .li, .ul {
     padding: 1%;
+    color: yellow
 }
 
 
 footer {
   width:100%;
-   
+  position: fixed; 
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: red;
+  color: rgb(223, 236, 32);
+  text-align: center;
  
+
 }
 
 @media screen and (max-width: 567px){
   .header{
-    height: 60%    
+    height: 60% ;   
     }
   .summary {
       padding-left: 20px;
@@ -150,6 +161,9 @@ footer {
       font-size: 1em;
       width: 50%;
     }
+    .right {
+      color:rgb(223, 236, 32);
+      }
 
     .contact{
       text-align: right;

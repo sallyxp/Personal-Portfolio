@@ -13,7 +13,7 @@ This repository has been created to consolidate a 'first view' portfolio of earl
 
 To run this webpage, click on the link below:
 
- https://sallyxp.github.io/Professional-Materials/ or open the HTML File with your default browser.
+https://sallyxp.github.io/Personal-Portfolio/ or open the HTML File with your default browser.
  
  # Usage
  
@@ -32,7 +32,7 @@ and various icons & names of technologies used. Beneath the image is also a link
 
 ![alt text](ReadmeImages/HTML-part3-Portfolio.png)
 
-![alt text](ReadmeImages/Screenshot.png)
+
 
 
 
@@ -44,16 +44,21 @@ The next section contains a parallax image of Birmingham City Centre, and then b
 The first item is a Week-Day-Scheduler, there is a brief description of it, a screenshot, a link to its Github Repository and another link to the deployed webpage.
 
 The second item is an earlier project, a random password generator.  There is again an image of its landing page, a brief description, a link to its Github Repository and 
-
 also to its deployed website.
 
-There is a small footer at the base of the page.
+The third item, a Few Fries Short, is a recent group collaboration written in node.js, javascript and mySQL2.  It uses the Model-View-Controller paradigm and allows the user to write reviews and comment on others (if logged into the system).
+
+There is a sticky footer at the base of the page.
 
 # Technologies Used
 
 The site is written using HTML 5, CSS 3, Materialize, Bootstrap and JavaScript.  Images have been cited within the repository.  Public images have been obtained via 
 
 unsplash.com.  Icons have been used from Font Awesome.
+
+# Contributors
+I should like to thank:
+Brian Lewicki and JJ Ying from Unsplash whose royalty-free images I have used within this project. 
 
 # Licence
 
